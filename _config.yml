@@ -28,6 +28,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  EliasClawson
 
+header_pages:
+  - index.markdown
+  - about.md
+
+show_excerpts: true
+navigation:
+  enabled: true
+
 # Build settings
 remote_theme: mmistakes/minimal-mistakes
 plugins:
