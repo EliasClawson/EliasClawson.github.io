@@ -1,16 +1,18 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-
-layout: splash
-title: "Welcome to My Site"
+layout: custom_home
+title: "Elias Clawson"
 permalink: /
+heading_anchors: false
 ---
 
 
 
-This is where I'll show off some projects and maybe have useful links like my github.
+
+### Embedded Controls Engineer
+
+Mission statement/Purpose here
+
+Links to github and others
 
 ## Featured Projects
 
