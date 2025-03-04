@@ -30,6 +30,7 @@ github_username:  EliasClawson
 
 header_pages:
   - index.markdown
+  - projects.md
   - about.md
 
 show_excerpts: true
