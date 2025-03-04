@@ -66,12 +66,23 @@ Links to github and others
 }
 
 .carousel-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  overflow: hidden;
-  background-size: cover;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
 }
+
+.carousel-caption {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-item {
+  transition: transform 0.5s ease-in-out;
+}
+
 </style>
+
+
+## What I Do
+
+- **Embedded Systems Development:** Designing and programming microcontroller-based solutions.
+- **Control Systems Engineering:** Building autonomous systems for various applications.

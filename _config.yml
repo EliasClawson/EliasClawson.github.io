@@ -42,6 +42,12 @@ collections:
     output: true
     permalink: /projects/:path/
 
+sass:
+  sass_dir: assets/css
+  style: expanded
+
+
+
 
 # Build settings
 remote_theme: mmistakes/minimal-mistakes

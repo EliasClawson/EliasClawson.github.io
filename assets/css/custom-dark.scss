@@ -1,0 +1,49 @@
+// Custom Dark Theme Overrides
+
+// Backgrounds
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+// Links
+a {
+    color: #76c7c0;
+}
+
+a:hover {
+    color: #88d8c0;
+}
+
+// Navbar
+.site-nav {
+    background-color: #1e1e1e;
+}
+
+.site-title,
+.site-title a {
+    color: #ffffff;
+}
+
+// Footer
+.site-footer {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.carousel-image {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
