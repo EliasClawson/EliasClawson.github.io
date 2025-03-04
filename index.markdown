@@ -23,7 +23,7 @@ Links to github and others
     {% for project in featured_projects %}
     <div class="carousel-item {% if forloop.first %}active{% endif %}">
       <a href="{{ project.url }}" style="text-decoration: none; color: inherit;">
-        <div class="carousel-image" style="position:relative; height:400px; background:url('{{ project.image }}') center/cover;">
+        <div class="carousel-image" style="position:relative;   background:url('{{ project.image }}') center/cover;">
           <div class="carousel-caption" style="background: rgba(0,0,0,0.5); color: white; padding: 1rem; position: absolute; bottom: 0; width: 100%;">
             <h3>{{ project.title }}</h3>
             <p>{{ project.excerpt }}</p>

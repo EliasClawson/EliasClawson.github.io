@@ -1,49 +1,110 @@
-// Custom Dark Theme Overrides
+// custom-dark.scss
+// Custom Dark Theme Overrides for Minimal Mistakes
 
-// Backgrounds
+// Base adjustments
 body {
-    background-color: #121212;
-    color: #f0f0f0;
-}
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+    font-smoothing: antialiased;
+  }
+  
+  // Links
+  a {
+    color: #82aaff !important;
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:focus {
+    color: #b2ebf2 !important;
+    text-decoration: underline;
+  }
+  
+  // Navigation, header, and footer
+  .masthead,
+  .site-nav,
+  .site-footer {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+  }
+  
+  .site-title,
+  .site-subtitle {
+    color: #ffffff !important;
+  }
+  
+  .greedy-nav {
+    background-color: #1e1e1e !important;
+  }
 
-// Links
-a {
-    color: #76c7c0;
-}
-
-a:hover {
-    color: #88d8c0;
-}
-
-// Navbar
-.site-nav {
-    background-color: #1e1e1e;
-}
-
-.site-title,
-.site-title a {
-    color: #ffffff;
-}
-
-// Footer
-.site-footer {
-    background-color: #1e1e1e;
-    color: #f0f0f0;
-}
-
-.carousel-item {
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-}
-
-.carousel-image {
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-}
-
-.carousel-caption {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 15px;
-    border-radius: 10px;
-    transition: background 0.3s ease;
-}
+  .page__footer{
+    background-color: #1e1e1e !important;
+  }
+  
+  // Headings
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+  }
+  
+  // Blockquotes
+  blockquote {
+    background-color: #1a1a1a;
+    border-left: 5px solid #64b5f6;
+    color: #cccccc;
+    padding: 1em;
+    margin: 1.5em 0;
+  }
+  
+  // Buttons (example for primary buttons)
+  .btn--primary {
+    background-color: #37474f !important;
+    border-color: #37474f !important;
+    color: #ffffff !important;
+  }
+  
+  .btn--primary:hover {
+    background-color: #455a64 !important;
+    border-color: #455a64 !important;
+  }
+  
+  // Forms and inputs
+  input,
+  textarea,
+  select {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #333 !important;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #82aaff !important;
+  }
+  
+  // Code blocks and inline code
+  pre,
+  code {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+    border: none;
+    font-family: Consolas, Monaco, "Lucida Console", monospace;
+    padding: 0.5em;
+    border-radius: 4px;
+  }
+  
+  // Optional: Custom scrollbar styling for Webkit browsers
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 4px;
+  }
+  

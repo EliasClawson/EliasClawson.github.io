@@ -4,3 +4,61 @@
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
 @import "custom-dark";
+
+
+.carousel-image {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;  /* Adjust ratio as needed */
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /* Fallback for browsers without aspect-ratio support using the padding trick */
+  @supports not (aspect-ratio: 16/9) {
+    .carousel-image {
+      height: 0;
+      padding-top: 56.25%;  /* 16:9 aspect ratio (9/16 = 0.5625) */
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  
+  /* Style the caption so it overlays nicely */
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 1rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-size-adjust: h1;
+    box-sizing: border-box;
+    max-height: 120px;
+    overflow: hidden;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  @media (min-width: 1200px) {
+    .carousel-caption h3 {
+      font-size: 1.5rem;
+    }
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+  }
+  
+  .carousel-caption h3 {
+    font-size: clamp(0.9rem, 1.75vw, 1.35rem);
+  }
+  
+  .carousel-caption p {
+    font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+  }
+  
