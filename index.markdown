@@ -8,9 +8,10 @@ heading_anchors: false
 
 
 
-### Embedded Controls Engineer
+### Embedded and Controls Engineer
+Bachelor of Science in Electrical and Computer Engineering (BS ECE - BYU)
 
-Mission statement/Purpose here
+Mission statement/Purpose here (Half rock, half man, half dream)
 
 Links to github and others
 
