@@ -3,7 +3,7 @@ title: Mars Rover Antenna Research
 date: 2025-03-04
 excerpt: Research conducted while working on BYU's URC Mars Rover team.
 tags: [research, robotics, communications]
-image: /assets/img/RoverScrnShot-EDIT.jpg
+image: /assets/img/RoverOldWide.jpg
 featured: true
 ---
 
