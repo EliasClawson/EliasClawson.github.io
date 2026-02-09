@@ -15,6 +15,38 @@ Mission statement/Purpose here. Something else?
 
 
 
+## AWS-Powered Assistant (Preview)
+
+This site includes a small experimental assistant backed by **AWS serverless services**
+(API Gateway + Lambda + Amazon Bedrock).
+
+Ask questions about my experience, projects, or background.
+Responses are generated from curated source documents.
+
+> ⚠️ Preview feature — responses are limited and rate-limited.
+
+<div id="aws-chat" style="max-width: 600px; margin-top: 1rem;">
+  <textarea
+    id="chat-input"
+    rows="3"
+    placeholder="Ask about my projects, experience, or education..."
+    style="width: 100%;"
+  ></textarea>
+
+  <button id="chat-send" disabled>
+    Ask (AWS backend not connected yet)
+  </button>
+
+  <div id="chat-response" style="margin-top: 1rem; white-space: pre-wrap;"></div>
+</div>
+
+<script>
+  document.getElementById("chat-response").textContent =
+    "AWS backend coming soon. This assistant will be powered by Amazon Bedrock via API Gateway + Lambda.";
+</script>
+
+
+
 ## Featured Projects
 
 <div id="projectCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
